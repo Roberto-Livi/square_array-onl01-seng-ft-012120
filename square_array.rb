@@ -1,8 +1,8 @@
-numbers = [1, 2, 3]
-def square_array(x)
-  x.each do |index|
-   puts index**2
+def square_array(array)
+  new_array = []
+  
+  x.each do |new_array|
+    new_array**2
   end
+  return new_array
 end
-
-print square_array(numbers)
